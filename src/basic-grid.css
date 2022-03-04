@@ -1,0 +1,6 @@
+.basic-grid {
+    display: grid;
+    gap: 1rem;
+    /* 1fr = 1 fractional unit = 1 part of the available space  */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
+}
